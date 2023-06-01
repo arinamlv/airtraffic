@@ -66,7 +66,7 @@ def run_prophet_forecast(traffic_df, homeAirport, pairedAirport, forecast_period
 
     return forecast_df
 
-forecast_result = run_prophet_forecast(traffic_df, "LGW", "BCN", 15)
+forecast_result = run_prophet_forecast(traffic_df, home_airport, paired_airport, 15)
 
 def draw_ts_multiple(df, v1, v2=None, prediction=None, date='date', secondary_y=True, covid_zone=False, display=True):
     if isinstance(v1, str):
