@@ -18,23 +18,26 @@ Usage
 
 To use the application, follow these steps:
 
-Clone the repository to your local machine:
+* Clone the repository to your local machine:
+ ```sh
 bash
-Copy code
+```
+* Copy code
+```
 git clone [repository URL]
+```
 Install the required dependencies by running the following command in your Python environment:
-Copy code
+* Copy code
+```
 pip install -r requirements.txt
+```
 Run the application using Streamlit:
-arduino
-Copy code
+* Copy code
+```
 streamlit run app.py
+```
 Access the application by opening the provided URL in your web browser.
+* https://vic313-airtraffic-airtrafficsrcapp-dgpy93.streamlit.app/
 Streamlit Cloud Deployment
 
 The application is deployed on Streamlit Cloud and can be accessed using the following link: Streamlit Cloud Link
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
