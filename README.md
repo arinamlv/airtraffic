@@ -27,3 +27,8 @@ Access the application by opening the provided URL in your web browser.
 Streamlit Cloud Deployment
 
 The application is deployed on Streamlit Cloud and can be accessed using the following link: Streamlit Cloud Link
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
